@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3cdb194a-aa00-480e-90a3-67abf625f568": {
+      "ProjectGuid": "3cdb194a-aa00-480e-90a3-67abf625f568",
+      "DisplayName": "WebApiPelicula",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "bf99cb1c-0bdb-48c9-889f-32a885d2bb7d": {
+      "ProjectGuid": "bf99cb1c-0bdb-48c9-889f-32a885d2bb7d",
+      "DisplayName": "PeliculasAPI.Tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

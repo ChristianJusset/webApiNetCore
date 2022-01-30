@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "OgFogQHLYYHGjQJ+3pQl1P7xvkbQsQY2qCUq1hHN3u0=",
+  "Source": "NetCoreApi",
+  "BasePath": "_content/NetCoreApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NetCoreApi\\wwwroot",
+      "Source": "NetCoreApi",
+      "ContentRoot": "D:\\udemy\\webapi\\practica\\ProyectoWebApi\\NetCoreApi\\wwwroot\\",
+      "BasePath": "_content/NetCoreApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\udemy\\webapi\\practica\\ProyectoWebApi\\NetCoreApi\\wwwroot\\Archivo 1.txt",
+      "SourceId": "NetCoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\udemy\\webapi\\practica\\ProyectoWebApi\\NetCoreApi\\wwwroot\\",
+      "BasePath": "_content/NetCoreApi",
+      "RelativePath": "Archivo 1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Archivo 1.txt"
+    }
+  ]
+}

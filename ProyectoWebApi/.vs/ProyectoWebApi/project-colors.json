@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b5aae7ff-16c7-4a10-86af-e68de6c85471": {
+      "ProjectGuid": "b5aae7ff-16c7-4a10-86af-e68de6c85471",
+      "DisplayName": "NetCoreApi",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "6010b200-a9d4-42ed-9eac-767cfe382c0f": {
+      "ProjectGuid": "6010b200-a9d4-42ed-9eac-767cfe382c0f",
+      "DisplayName": "WebAPIAutores.Tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

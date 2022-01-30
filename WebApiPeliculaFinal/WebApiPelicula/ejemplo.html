@@ -1,0 +1,19 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>FrontEnd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <script>
+        var headers = new Headers({
+            "X-Api-Key": "7671edd22d9643978c5124228db7d3ab"
+        });
+
+        fetch('https://localhost:7066/api/generos', {headers})
+        .then(response => response.json())
+        .then(data => console.log(data));
+    </script>
+</body>
+</html>

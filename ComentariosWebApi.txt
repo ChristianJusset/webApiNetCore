@@ -1,0 +1,89 @@
+Hay varias formar de contruir servicios uno de ellos es REST y cuando cumple algunas caracteristicas se llama REST FULL:
+* separar el cliente y servidor
+* HATEOES
+* identificar al cliente
+* cache
+* arquitectura de capas 
+Rest: solo se utiliza una única url para realizar el CRUD
+Métodos HTTP: GET, HEAD(solo envía información en la cabecera), POST, PUT, DELETE, PATH
+
+cuando se comunica el cliente y el servidor lo hacen mediante el protocolo HTTP, el protocolo HTTP se envia la cabecera donde se envía información metadata, y cuerpo
+los HTTP envía respueta tambíen con una cabecera y un cuerpo
+200: OK
+201: se ha creado 
+202: se ha aceptado pero va a demorar el proceso
+204: se ha realizado con exito pero no va a retornar un valor, a excepcion de la cabecera
+400: bad request, el cliente envío un campo vacío
+401: el usuario necesita loguearse
+403: forbidden: el usuario no tiene privilegios para realizar la operacion
+404: el recurso no esta disponible
+
+
+# ver al versión de net 
+dotnet --version
+
+
+# instalar EF
+Es un ORM que nos permite trabajar con tablar a partir de entidades en C#
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+add-migration inicial
+update-database
+
+# resolver el object cycle
+services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
+# los id de las tablas necesitan ir, pero para navegar se utiliza con el objeto y/o lista de objetos
+
+# si una tabla tiene un Id, EF lo va a considerar como su llave primaria
+
+# instalar el automapper
+AutoMapper.Extensions.Microsoft.DependencyInjection
+
+# para actualizar con patch
+Microsoft.AspNetCore.Mvc.NewtonsoftJson
+
+
+# esquemas de autenticacion
+anonimo: cualquier persona puede ingresar al recurso
+basic: el password se convierte en base64, es necesario utilizar el SSL
+Bearer: retorna un JWT
+
+
+usuario:
+user1@gmail.com
+user2@gmail.com
+password:
+12345aA*
+
+token:
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGdtYWlsLmNvbSIsImxvIHF1ZSB5byBxdWllcmEiOiJjdWFscXVpZXIgb3RybyB2YWxvciIsImV4cCI6MTY3MTkxNjI0OH0.kyzhCxcisk0E-KDcmsU7E30khKzLFqIz21-M0Nhe6MY
+
+#Hateoas
+ayuda a los usuario ver los recursos que hay disponible en el backEnd(link)
+
+#csproj
+
+evitar que VS mande waring al momento de documentar las acciones de un controller
+<GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+
+#test
+ MSTest Project   
+ Moq
+
+# Subir a azure store
+Azure.Storage.Blobs
+
+# patch
+Microsoft.AspNetCore.JsonPatch
+Microsoft.AspNetCore.Mvc.NewtonsoftJson 
+
+
+# System.Linq.Dynamic.Core
+
+# Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite
+
+# Microsoft.EntityFrameworkCore.InMemory: utilizar el dbcontext en test
